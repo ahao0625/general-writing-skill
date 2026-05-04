@@ -1,0 +1,70 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality-checks:
+    name: Quality Checks
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Check for trailing whitespace
+      run: |
+        if grep -r '[[:space:]]$' --include='*.md' --include='*.sh' . ; then
+          echo "Found trailing whitespace!"
+          exit 1
+        fi
+
+    - name: Check file endings
+      run: |
+        if ! [ -z "$(find . -type f ! -path './.git/*' ! -name '.DS_Store' -exec sh -c 'tail -c1 "$1" | grep -q .' _ {} \; -print 2>/dev/null)" ]; then
+          echo "Some files don't end with a newline!"
+          exit 1
+        fi
+
+    - name: Count files
+      run: |
+        md_count=$(find . -name '*.md' -type f ! -path './.git/*' | wc -l)
+        echo "Found $md_count Markdown files"
+
+  link-check:
+    name: Link Check
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Check internal links
+      run: |
+        # Extract internal links and check if they exist
+        grep -rh '\[.*\](' --include='*.md' . | grep -E '\]\(' | sed 's/.*]\(([^)]*)\).*/\1/' | grep -v '^http' | while read link; do
+          if [ ! -f "$link" ] && [ ! -d "$link" ]; then
+            echo "Broken link: $link"
+            exit 1
+          fi
+        done
+
+  markdown-lint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Run Markdown linter
+      uses: DavidAnson/markdownlint-cli2-action@v13
+      with:
+        globs: "**/*.md"

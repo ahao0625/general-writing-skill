@@ -8,6 +8,9 @@
 [![GitHub issues](https://img.shields.io/github/issues/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill/releases)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![GitHub contributors](https://img.shields.io/github/contributors/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill/graphs/contributors)
+[![Project Maintained](https://img.shields.io/badge/Maintained-YES!-green.svg)](https://github.com/ahao0625/general-writing-skill/pulse)
 
 ---
 
