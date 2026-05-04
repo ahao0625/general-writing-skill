@@ -340,12 +340,44 @@ curl -fsSL https://raw.githubusercontent.com/ahao0625/general-writing-skill/main
 
 ---
 
-## ⭐ 如果对你有帮助，请给个 Star！
+## ⭐ 如果对你有帮助，请支持一下！
 
-你的支持是我继续优化的动力！
+如果这个项目对你有帮助，可以：
+
+### 🌟 点个 Star
+这是对我最大的鼓励和支持！
 
 [![GitHub stars](https://img.shields.io/github/stars/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/network/members)
+
+### ☕ 赞助一杯咖啡
+如果这个技能帮你写出了精彩的内容，可以考虑赞助我一杯咖啡，让我更有动力继续优化！
+
+**赞助方式**：
+- GitHub Sponsors（推荐）：点击右侧的 [Sponsor] 按钮
+- 微信/支付宝：扫码见下方
+- 其他联系方式：见下方联系方式
+
+**扫码打赏**：
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/wechat-qr.png" width="200" alt="微信收款码"/><br/>
+      <strong>微信扫一扫</strong>
+    </td>
+    <td align="center">
+      <img src="assets/alipay-qr.png" width="200" alt="支付宝收款码"/><br/>
+      <strong>支付宝扫一扫</strong>
+    </td>
+  </tr>
+</table>
+
+**你的支持将用于**：
+- 持续优化 Skill 的写作质量
+- 添加更多写作场景和技巧
+- 维护项目文档和示例
+- 回复用户反馈和问题
 
 ---
 
