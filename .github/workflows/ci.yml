@@ -48,8 +48,8 @@ jobs:
 
     - name: Check internal links
       run: |
-        # Extract internal links and check if they exist
-        grep -rh '\[.*\](' --include='*.md' . | grep -E '\]\(' | sed 's/.*]\(([^)]*)\).*/\1/' | grep -v '^http' | while read link; do
+        # Extract internal links (alphanumeric and common path chars only)
+        grep -rhoE ']\([a-zA-Z0-9._/-]+\)' --include='*.md' . | sed 's/^](\(.*\))$/\1/' | sort -u | while read link; do
           if [ ! -f "$link" ] && [ ! -d "$link" ]; then
             echo "Broken link: $link"
             exit 1
