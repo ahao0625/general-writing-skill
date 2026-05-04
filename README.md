@@ -3,7 +3,13 @@
 > **会写作、懂思考、文笔好** - 让 AI 成为你的专属写作助手
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/general-writing-skill?style=social)](https://github.com/yourusername/general-writing-skill/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/ahao0625/general-writing-skill)](https://github.com/ahao0625/general-writing-skill/releases)
+
+---
 
 ## ✨ 功能特性
 
@@ -40,7 +46,7 @@
 mkdir -p .trae/skills
 
 # 下载 Skill 文件
-git clone https://github.com/yourusername/general-writing-skill.git .trae/skills/general-writing
+git clone https://github.com/ahao0625/general-writing-skill.git .trae/skills/general-writing
 
 # 或者手动复制
 cp SKILL.md .trae/skills/general-writing/SKILL.md
@@ -60,11 +66,11 @@ mkdir $HOME\.trae\skills
 Copy-Item -Recurse . $HOME\.trae\skills\general-writing
 ```
 
-### 方法三：自动安装脚本 ⭐
+### 方法三：自动安装脚本 ⚡
 
 ```bash
 # 下载并运行安装脚本
-curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ahao0625/general-writing-skill/main/install.sh | bash
 ```
 
 ---
@@ -132,7 +138,7 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/
 4. **🔍 自我质检**
    - 逻辑：系统出现是否合理？（有伏笔或解释）
    - 人物：陆沉的反应是否符合其性格？
-   - 节奏：发现和探索系统的过程是否太快的？
+   - 节奏：发现和探索系统的过程是否太快了？
    - 爽点：读者看完是否会有"好想看下一章"的感觉？
 
 **输出**：完整的章节内容 + 质量报告
@@ -259,7 +265,7 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/
 
 ---
 
-## 📊 优秀写作的标志
+## 🎯 优秀写作的标志
 
 1. **清晰**：读者能轻松理解
 2. **精准**：用词准确无误
@@ -289,6 +295,8 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/
 - 🎨 提供更好的案例
 - 🔧 改进安装脚本
 
+详细指南请查看 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
 ---
 
 ## 📝 更新日志
@@ -302,11 +310,16 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/
 
 ---
 
+## 👥 贡献者
+
+- **[ahao0625](https://github.com/ahao0625)** - 项目创建者
+
+---
+
 ## 📧 联系作者
 
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **邮箱**: your.email@example.com
-- **博客**: https://yourblog.com
+- **GitHub**: [ahao0625](https://github.com/ahao0625)
+- **Issues**: [提交问题](https://github.com/ahao0625/general-writing-skill/issues)
 
 ---
 
@@ -328,8 +341,8 @@ curl -fsSL https://raw.githubusercontent.com/yourusername/general-writing-skill/
 
 你的支持是我继续优化的动力！
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/general-writing-skill?style=social)](https://github.com/yourusername/general-writing-skill/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/general-writing-skill?style=social)](https://github.com/yourusername/general-writing-skill/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ahao0625/general-writing-skill?style=social)](https://github.com/ahao0625/general-writing-skill/network/members)
 
 ---
 
