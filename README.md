@@ -38,6 +38,26 @@
 
 ---
 
+## 🤝 多平台支持
+
+本技能支持多种 AI 助手平台，详见 [platforms/README.md](platforms/README.md)。
+
+| 平台 | 文件路径 | 状态 |
+|------|---------|------|
+| Trae IDE | `platforms/trae/SKILL.md` | ✅ |
+| WorkBuddy | `platforms/workbuddy/general-writing.md` | ✅ |
+| Cursor AI | `platforms/cursor/writing-assistant.mdc` | ✅ |
+| Claude Code | `platforms/claude/writing-prompt.txt` | ✅ |
+
+### 为什么选择这个技能？
+
+- ✅ **跨平台兼容**：支持 Trae、WorkBuddy、Cursor、Claude 等主流 AI 助手
+- ✅ **统一的写作方法论**：深度分析 → 结构规划 → 优质撰写 → 自我质检
+- ✅ **丰富的示例**：包含网文小说、文章博客、营销文案等多种场景
+- ✅ **专业级质量**：遵循写作最佳实践（Show Don't Tell、五感描写等）
+
+---
+
 ## 📦 安装方法
 
 ### 方法一：项目级安装（推荐）✅
